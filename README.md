@@ -1,7 +1,6 @@
-# maven-project
+# DevOps-CICD 
 
-Simple Maven Project
-# DevOps-CICD
+GIT ---> Jenkins --> Ansible -->Tomcat 
 
 ![alt text](./images/cicd.png)
 
