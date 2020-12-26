@@ -1,4 +1,4 @@
-# maven-project
+# DevOps-CICD
 
 Simple Maven Project
 # DevOps-CICD
