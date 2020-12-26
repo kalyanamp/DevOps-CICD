@@ -6,7 +6,7 @@ node {
     stage('Build') {
         sh 'mvn clean install package'
     }
-    stage('post-build steps send war'){
+    stage('Post-build steps send war'){
         script {
           sshPublisher(
            continueOnError: false, failOnError: true,
@@ -24,8 +24,25 @@ node {
              ])
            ])
         }
-
-
+    }
+    stage('Copy ansible-playbook to ansible server'){
+        script {
+          sshPublisher(
+           continueOnError: false, failOnError: true,
+           publishers: [
+            sshPublisherDesc(
+             configName: "anisble", // ansible server name 
+             verbose: true,
+             transfers: [
+              sshTransfer(
+               sourceFiles: "ansible",
+               removePrefix: " ",
+               remoteDirectory: " ",
+               execCommand: "ls -ltr ansible"
+              )
+             ])
+           ])
+        }
     }
     stage('Deployed on Tomcat server') {
         script {
@@ -33,14 +50,14 @@ node {
            continueOnError: false, failOnError: true,
            publishers: [
             sshPublisherDesc(
-             configName: "anisble",
+             configName: "anisble", // ansible server name 
              verbose: true,
              transfers: [
               sshTransfer(
                sourceFiles: " ",
                removePrefix: " ",
                remoteDirectory: " ",
-               execCommand: "ansible-playbook -i /tmp/hosts /tmp/copywarfile.yml"
+               execCommand: "ansible-playbook -i ansible/hosts ansible/copywarfile.yml"
               )
              ])
            ])
