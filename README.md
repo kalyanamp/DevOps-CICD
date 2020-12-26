@@ -12,7 +12,7 @@ Ansible Installation
 #create user(demo) all server with root permissions
 #ubuntu root user group permissions
 
-- below command addes ansadmin to sudoers file. But strongly recommended to use "visudo" command if you are aware vi or nano editor. 
+Below command addes ansadmin to sudoers file. But strongly recommended to use "visudo" command if you are aware vi or nano editor. 
 
 `echo "demo ALL=(ALL) ALL" >> /etc/sudoers`
 
