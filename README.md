@@ -41,9 +41,10 @@ cat hosts. # this your tomcat hosts
 172.31.25.30
 172.31.27.56
 
-# test host connection 
+test host connection 
 `ansible -i hosts all -m ping -u demo`
 
+[Tomcat install] (https://github.com/kalyanamp/DevOps-CICD/tree/master/ansible/tomcat-ansible)
 
 ### Ansible  Integration Setps jenkins
 
