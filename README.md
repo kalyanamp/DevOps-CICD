@@ -11,29 +11,31 @@ Ansible Installation
 #create user(demo) all server with root permissions
 #ubuntu root user group permissions
 
-# below command addes ansadmin to sudoers file. But strongly recommended to use "visudo" command if you are aware vi or nano editor. 
-echo "demo ALL=(ALL) ALL" >> /etc/sudoers
+- below command addes ansadmin to sudoers file. But strongly recommended to use "visudo" command if you are aware vi or nano editor. 
+
+`echo "demo ALL=(ALL) ALL" >> /etc/sudoers`
 
 #install python
+
 #install ansible
 
 #centos,redhost
-yum install ansible
+`yum install ansible`
 #ubuntu
-sudo apt-get install ansible
+`sudo apt-get install ansible`
 
 #Aws 
-sudo amazon-linux-extras install ansible2
+`sudo amazon-linux-extras install ansible2`
 
 #create ansible invertory hosts
 
-cat hosts
+cat `hosts`
 [web]
 172.31.25.30
 172.31.27.56
 
 # test host connection 
-ansible -i hosts all -m ping -u demo
+`ansible -i hosts all -m ping -u demo`
 
 
 ### Ansible  Integration Setps jenkins
