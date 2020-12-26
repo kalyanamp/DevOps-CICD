@@ -44,7 +44,9 @@ cat hosts. # this your tomcat hosts
 test host connection 
 `ansible -i hosts all -m ping -u demo`
 
-[Tomcat install] (https://github.com/kalyanamp/DevOps-CICD/tree/master/ansible/tomcat-ansible)
+###Tomcat install Ansible Role to Install Tomcat 9 on CentOS, Fedora, Debian and Ubuntu Linux.
+
+ https://github.com/kalyanamp/DevOps-CICD/tree/master/ansible/tomcat-ansible
 
 ### Ansible  Integration Setps jenkins
 
