@@ -37,7 +37,7 @@ node {
               sshTransfer(
                sourceFiles: "ansible/*",
                removePrefix: " ",
-               remoteDirectory: " ",
+               remoteDirectory: "ansible",
                execCommand: "ls -ltr ansible"
               )
              ])
