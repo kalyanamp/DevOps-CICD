@@ -57,7 +57,7 @@ node {
                sourceFiles: " ",
                removePrefix: " ",
                remoteDirectory: " ",
-               execCommand: "ansible-playbook -i /tmp/hosts /tmp/copywarfile.yml"
+               execCommand: "ansible-playbook -i hosts copywarfile.yml"
               )
              ])
            ])
