@@ -34,12 +34,11 @@ Below command addes ansadmin to sudoers file. But strongly recommended to use "v
 
 #create ansible invertory hosts
 
-cat hosts
+cat hosts. # this your tomcat hosts
 
-[web]
+[web].  
 
 172.31.25.30
-
 172.31.27.56
 
 # test host connection 
