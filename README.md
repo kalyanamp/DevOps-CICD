@@ -21,16 +21,21 @@ Below command addes ansadmin to sudoers file. But strongly recommended to use "v
 #install ansible
 
 #centos,redhost
+
 `yum install ansible`
+
 #ubuntu
+
 `sudo apt-get install ansible`
 
 #Aws 
+
 `sudo amazon-linux-extras install ansible2`
 
 #create ansible invertory hosts
 
-cat `hosts`
+cat hosts
+
 [web]
 172.31.25.30
 172.31.27.56
