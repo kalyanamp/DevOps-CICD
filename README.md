@@ -37,7 +37,9 @@ Below command addes ansadmin to sudoers file. But strongly recommended to use "v
 cat hosts
 
 [web]
+
 172.31.25.30
+
 172.31.27.56
 
 # test host connection 
