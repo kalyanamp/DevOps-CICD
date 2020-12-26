@@ -36,7 +36,7 @@ node {
              transfers: [
               sshTransfer(
                sourceFiles: "ansible/*",
-               removePrefix: " ",
+               removePrefix: "ansible",
                remoteDirectory: " ",
                execCommand: "ls -ltr "
               )
@@ -57,7 +57,7 @@ node {
                sourceFiles: " ",
                removePrefix: " ",
                remoteDirectory: " ",
-               execCommand: "ansible-playbook -i ansible/hosts ansible/copywarfile.yml"
+               execCommand: "ansible-playbook -i /tmp/hosts /tmp/copywarfile.yml"
               )
              ])
            ])
