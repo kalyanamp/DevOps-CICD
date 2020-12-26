@@ -1,5 +1,5 @@
 # DevOps-CICD 
-JenkinsFile Pipeline 
+Jenkinsfile CICD Pipeline 
 
 GIT ---> Jenkins --> Ansible -->Tomcat 
 
