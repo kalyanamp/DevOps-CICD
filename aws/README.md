@@ -31,8 +31,8 @@ KMP-public route
 
 Create NAT with public Subnet and elastic IP
 
+#Nat attach private routing table
 
-# Nat attach private routing table
 #routs
 0.0.0.0  target- nata
 
