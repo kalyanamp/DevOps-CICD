@@ -1,7 +1,7 @@
 #AWS network Project from scratch 
 
 
-![alt text](../images/aws-network.jpg ../images/network.jpg )
+![alt text](../images/aws-network.jpg) ![alt text](../images/network.jpg )
 
 
 #VPC:
