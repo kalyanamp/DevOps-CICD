@@ -1,8 +1,10 @@
 #AWS network Project from scratch 
 
-#VPC:
 
 ![alt text](../images/aws-network.jpg ../images/network.jpg )
+
+
+#VPC:
 
 name - KMP-VPC
 
