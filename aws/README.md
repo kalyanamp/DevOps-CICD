@@ -1,7 +1,8 @@
 #AWS network Project from scratch 
+
 #VPC:
 
-![alt text](../images/vpc.jpg)
+![alt text](../images/aws-network.jpg)
 
 name - KMP-VPC
 
@@ -49,6 +50,7 @@ Next
 
 
 Reference : Build AWS Multi-Tier Architecture Project from scratch
+
 
 
 
