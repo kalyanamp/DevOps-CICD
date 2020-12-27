@@ -1,6 +1,8 @@
 #AWS network Project from scratch 
 #VPC:
 
+![alt text](../images/vpc.jpg)
+
 name - KMP-VPC
 
 10.0.0.0/16
@@ -27,7 +29,9 @@ KMP-private route
 
 KMP-public route
 
+
 #NAT
+KMP-NAT
 
 Create NAT with public Subnet and elastic IP
 
@@ -46,7 +50,9 @@ Next
 
 Reference : Build AWS Multi-Tier Architecture Project from scratch
 
-https://www.youtube.com/watch?v=E-WdMk7_IQo&list=LL
+
+
+
 
 
 
