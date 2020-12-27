@@ -52,6 +52,10 @@ Next
 
 
 Reference : Build AWS Multi-Tier Architecture Project from scratch
+https://www.youtube.com/watch?v=E-WdMk7_IQo&list=LL
+
+https://hackernoon.com/manage-aws-vpc-as-infrastructure-as-code-with-terraform-55f2bdb3de2a
+
 
 #security 
 
