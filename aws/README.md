@@ -2,7 +2,7 @@
 
 #VPC:
 
-![alt text](../images/aws-network.jpg)
+![alt text](../images/aws-network.jpg ../images/network.jpg )
 
 name - KMP-VPC
 
@@ -50,6 +50,14 @@ Next
 
 
 Reference : Build AWS Multi-Tier Architecture Project from scratch
+
+#security 
+
+![alt text](../images/security.jpg)
+
+#Network NACL
+
+![alt text](../images/network.jpg)
 
 
 
