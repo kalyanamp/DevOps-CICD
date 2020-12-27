@@ -61,9 +61,9 @@ https://hackernoon.com/manage-aws-vpc-as-infrastructure-as-code-with-terraform-5
 
 ![alt text](../images/security.jpg)
 
-#Network NACL
+#Network CIDR
 
-![alt text](../images/network.jpg)
+![alt text](../images/cidr.jpg)
 
 
 
