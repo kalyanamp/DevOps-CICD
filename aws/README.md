@@ -51,8 +51,6 @@ Next
 
 0.0.0.0 --> kmp-igw
 
-![alt text](../images/98-nat-gateway-diagram.png) 
-![alt text](../images/full-vpc-traffic.png)
 
 <p float="left">
   <img src="../images/98-nat-gateway-diagram.png" width="500" />
