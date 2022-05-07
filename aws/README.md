@@ -53,8 +53,8 @@ Next
 
 
 <p float="left">
-  <img src="../images/98-nat-gateway-diagram.png" width="500" />
-  <img src="../images/full-vpc-traffic.png" width="500" /> 
+  <img src="../images/98-nat-gateway-diagram.png" width="700" />
+  <img src="../images/full-vpc-traffic.png" width="700" /> 
 </p>
 
 Reference : Build AWS Multi-Tier Architecture Project from scratch
