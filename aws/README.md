@@ -51,7 +51,14 @@ Next
 
 0.0.0.0 --> kmp-igw
 
-![alt text](../images/98-nat-gateway-diagram.png) ![alt text](../images/full-vpc-traffic.png)
+![alt text](../images/98-nat-gateway-diagram.png) 
+![alt text](../images/full-vpc-traffic.png)
+
+<p float="left">
+  <img src="../images/98-nat-gateway-diagram.png" width="100" />
+  <img src="../images/full-vpc-traffic.png" width="100" /> 
+</p>
+
 Reference : Build AWS Multi-Tier Architecture Project from scratch
 https://www.youtube.com/watch?v=E-WdMk7_IQo&list=LL
 
