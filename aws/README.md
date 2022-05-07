@@ -55,8 +55,8 @@ Next
 ![alt text](../images/full-vpc-traffic.png)
 
 <p float="left">
-  <img src="../images/98-nat-gateway-diagram.png" width="100" />
-  <img src="../images/full-vpc-traffic.png" width="100" /> 
+  <img src="../images/98-nat-gateway-diagram.png" width="500" />
+  <img src="../images/full-vpc-traffic.png" width="500" /> 
 </p>
 
 Reference : Build AWS Multi-Tier Architecture Project from scratch
