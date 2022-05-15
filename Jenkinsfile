@@ -57,7 +57,7 @@ node {
                sourceFiles: " ",
                removePrefix: " ",
                remoteDirectory: " ",
-               execCommand: "ansible-playbook -i hosts copywarfile.yml  --extra-vars "ansible_sudo_pass=demo" "
+               execCommand: "ansible-playbook -i hosts copywarfile.yml --extra-vars "ansible_sudo_pass=demo""
               )
              ])
            ])
