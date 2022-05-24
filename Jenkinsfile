@@ -1,7 +1,7 @@
 node {
     stage('Preparation code') { // for display purposes
         // Get some code from a GitHub repository
-        git 'https://github.com/kalyanamp/DevOps-CICD.git'
+        git 'https://github.com/Yogeeswari-M/DevOps-CICD.git'
     }
     stage('Build') {
         sh 'mvn clean install package'
@@ -57,7 +57,7 @@ node {
                sourceFiles: " ",
                removePrefix: " ",
                remoteDirectory: " ",
-               execCommand: "ansible-playbook -i hosts copywarfile.yml --extra-vars ansible_sudo_pass=demo"
+               execCommand: "ansible-playbook -i hosts copywarfile.yml --extra-vars ansible_sudo_pass=red123"
               )
              ])
            ])
